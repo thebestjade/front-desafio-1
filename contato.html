@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./reset.css">
         <link rel="stylesheet" href="estrutura-geral.css">
+        <link rel="stylesheet" href="./contato.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
         <title>Desafio-Front-1</title>
@@ -24,10 +25,107 @@
         </header>
         
         <div class = "main-container">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+
+            <div class="artigo contato">
+                <h1>Contato</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus quis augue elementum vestibulum. Nam a orci erat. Aenean arcu mauris, finibus a rutrum quis, commodo sollicitudin nibh. Morbi diam lacus, suscipit nec maximus et, tincidunt at quam. </p>
+
+                <div class="info">
+                    <h2>Informações para contato</h2>
+                    <div>
+                        <div class="img-id">
+                            <img src="./assets/localizacao.png" alt="">
+                            <p class="bold">Endereço</p>
+                        </div>
+                        <p class="info-p">Av. Tancredo Neves, 2227, Ed. Salvador Prime Caminho das Árvores, Salvador • Bahia</p>
+                    </div>
+                    <div>
+                        <div class="img-id">
+                            <img src="./assets/telefone.png" alt="">
+                            <p class="bold">Telefone</p>
+                        </div>
+                        <p class="info-p">(71) 9 9999-9999 | (11) 1 1111-1111</p>
+                    </div>
+                    <div>
+                        <div class="img-id">
+                            <img src="./assets/headset.png" alt="">
+                            <p class="bold">Suporte</p>
+                        </div>
+                        <p class="info-p">suporte@cubos.academy</p>
+                    </div>
+                </div>
+
+                <div class="input-contato">
+                    <h2>Entre em contato</h2>
+
+                    <div class="contact-container">
+                        <div class="div-input-nome">
+                            <label for="nome">Nome</label>
+                            <input class="nome-email" type="text" id = "nome">
+                        </div>
+                        <div class="div-input-email">
+                            <label for="email">E-mail</label>
+                            <input class="nome-email" type="email" id = "email">
+                        </div>
+                        <div class="div-input-assunto">
+                            <label for="text">Assunto</label>
+                            <input class="assunto" type="text" id = "text">
+                        </div>
+                        <div class="div-input-comentario">
+                            <label for="comentario">Comentário</label>
+                            <textarea class="textarea2" id="comentario" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="send-button">Enviar</button>
+            </div>
+
+            <div class="pesquisa">
+                <input class="input-pesquisa" type="text" placeholder="Pesquise aqui...">
+                <div class="categoria">
+                    <h2>Categorias</h2>
+                    <table>
+                        <tr>
+                            <td>Tecnologia</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>Estilo de vida</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>Arte</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Comida</td>
+                            <td>12</td>
+                        </tr>
+                        <tr>
+                            <td>Aventura</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td>Moda</td>
+                            <td>12</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="publicidade">
+                    <h2>Publicidade</h2>
+                    <div class="quadrados-vazios">
+                        <p>340 x 240</p>
+                    </div>
+                    <div class="quadrados-vazios">
+                        <p>340 x 240</p>
+                    </div>
+                    <div class="quadrados-vazios">
+                        <p>340 x 240</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <footer>

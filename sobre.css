@@ -1,10 +1,16 @@
+label{
+    margin-bottom: 10px;
+}
+label, .p1, .p-meio{
+    color: black;
+}
 .main-container{
     grid-template-areas: 'artigo pesquisa'
     'artigo pesquisa'
     'mensagem pesquisa'
     'mensagem .';
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 4fr 2fr 1fr 1fr;
+    grid-template-rows:550px 540px 120px 380px;
     gap: 50px;
 }
 .artigo{
@@ -15,9 +21,51 @@
 }
 .mensagem{
     grid-area: mensagem;
+    display: flex;
+    flex-direction: column;
 }
-.mensagem{
-    background-color: white;
-    box-shadow: 4px 4px 5px #aaaaaa;
-    border-radius: 5px;
+.mensagem h1{
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.coment-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.div-input{
+    display: flex;
+    flex-direction: column;
+}
+.nome-email{
+    width: 350px;
+    height: 42px;
+    border: none;
+}
+.textarea1{
+    height: 184px;
+    width: 730px;
+    border: none;
+}
+.comentario{
+    margin-top: 25px;
+}
+.coment-button{
+    width: 118px;
+    height: 43px;
+    background-color: #FE0078;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin:48px 0 64px 0;
+    align-self: flex-end;
+}
+.coment-button:hover{
+    cursor: pointer;
+}
+.nome-email:hover, .textarea1:hover{
+    border: 1px solid #FE0078;
+    cursor: pointer;
 }

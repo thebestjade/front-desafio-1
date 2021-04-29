@@ -1,10 +1,12 @@
 .main-container{
     grid-template-areas: 'a1 pesquisa'
     'a2 pesquisa'
+    'a2 .'
     'a3 .';
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 696px 550px 105px 706px;
     gap: 50px;
+    margin-bottom:64px;
 }
 .a1{
     grid-area: a1;
@@ -31,3 +33,4 @@
     border: 1px solid #FE0078;
     color: rgba(84, 84, 84, 1);
 }
+

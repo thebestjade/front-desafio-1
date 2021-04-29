@@ -38,14 +38,6 @@ li{
 a{
     color: rgba(84, 84, 84, 1);
 }
-input{
-    margin: 20px 20px 25px 15px;
-    width: 345px;
-    height: 52px;
-    padding-left: 20px;
-    border: 1px solid #EEEEEE;
-    border-radius: 10px;
-}
 table{
     width: 345px;
     margin-bottom: 40px;
@@ -54,7 +46,11 @@ td{
     border-bottom: 1px dashed #EEEEEE;
     height: 35px;
     vertical-align: middle;
-    padding-left: 5px;
+    padding: 0 10px;
+}
+
+tr td:nth-child(2){
+    text-align: right;
 }
 footer{
     height: 70px;
@@ -81,7 +77,6 @@ footer p{
     align-self: center;
     display: grid;
     margin-top: 49px;
-    margin-bottom: 64px;
 }
 .autoria{
     font-size: 12px;
@@ -89,7 +84,6 @@ footer p{
     margin: 8px 0 14px 24px;
 }
 .artigo{
-    width: 95%;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -100,7 +94,6 @@ footer p{
     background-color: white;
     box-shadow: 4px 4px 5px #aaaaaa;
     border-radius: 5px;
-    margin-bottom: 60px;
 }
 /* DENTRO DE ARTIGO*/
 
@@ -113,18 +106,20 @@ footer p{
 .artigo .p-meio{
     margin: 0 24px 24px 24px;
 }
+.input-pesquisa{
+    margin: 20px 20px 25px 15px;
+    width: 345px;
+    height: 52px;
+    padding-left: 20px;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+}
 
 /* DENTRO DE PESQUISA - CATEGORIA*/
 .categoria{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.categoria h2{
-    align-self: flex-start;
-    margin: 0 0 40px 15px;
-    padding-left: 11px;
-    border-left: 2px solid #FE0078;
 }
 
 /* DENTRO DE PESQUISA - PUBLICIDADE*/
@@ -136,7 +131,7 @@ footer p{
 }
 .publicidade h2{
     align-self: flex-start;
-    margin: 0 0 40px 15px;
+    margin: 0 0 40px 20px;
     padding-left: 11px;
     border-left: 2px solid #FE0078;
 }
@@ -161,7 +156,7 @@ footer p{
 }
 .categoria h2{
     align-self: flex-start;
-    margin: 0 0 40px 15px;
+    margin: 0 0 40px 20px;
     padding-left: 11px;
     border-left: 2px solid #FE0078;
 }
@@ -170,15 +165,16 @@ footer p{
 
 tr:hover{
     color: #FE0078;
-    border-color: #FE0078;
+    border:1px solid #FE0078;
     cursor:pointer;
 }
+
 .button-continuar-lendo:hover{
     background-color: #FE0078;
     color: white;
     cursor:pointer;
 }
-input:hover{
+.input-pesquisa:hover{
     border: 1px solid #FE0078;
     cursor: pointer;
 }
