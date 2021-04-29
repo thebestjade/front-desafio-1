@@ -1,0 +1,185 @@
+
+body{
+    background-color: #E5E5E5;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: rgba(84, 84, 84, 1);
+}
+h1{
+    font-size: 24px;
+    color: black;
+    margin: 24px 0 0 24px;
+}
+h2{
+    font-size: 18px;
+    color: black;
+}
+
+header{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    padding: 30px 0;
+    background-color: white;
+    box-shadow: 4px 4px 5px #aaaaaa;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin-left: 30px;
+}
+a{
+    color: rgba(84, 84, 84, 1);
+}
+input{
+    margin: 20px 20px 25px 15px;
+    width: 345px;
+    height: 52px;
+    padding-left: 20px;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+}
+table{
+    width: 345px;
+    margin-bottom: 40px;
+}
+td{
+    border-bottom: 1px dashed #EEEEEE;
+    height: 35px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+footer{
+    height: 70px;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    color: white;
+}
+
+/* CLASSES - NAVEGAÇÃO E CONTAINER PRINCIPAL*/
+
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+}
+.main-container{
+    min-height: 100vh;
+    width: 1160px;
+    align-self: center;
+    display: grid;
+    margin-top: 49px;
+    margin-bottom: 64px;
+}
+.autoria{
+    font-size: 12px;
+    color: rgba(146, 146, 146, 1);
+    margin: 8px 0 14px 24px;
+}
+.artigo{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 4px 4px 5px #aaaaaa;
+    border-radius: 5px;
+}
+.pesquisa{
+    background-color: white;
+    box-shadow: 4px 4px 5px #aaaaaa;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+/* DENTRO DE ARTIGO*/
+
+.artigo img{
+    max-width: 100%;
+}
+.artigo .p1{
+    margin: 24px;
+}
+.artigo .p-meio{
+    margin: 0 24px 24px 24px;
+}
+
+/* DENTRO DE PESQUISA - CATEGORIA*/
+.categoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.categoria h2{
+    align-self: flex-start;
+    margin: 0 0 40px 15px;
+    padding-left: 11px;
+    border-left: 2px solid #FE0078;
+}
+
+/* DENTRO DE PESQUISA - PUBLICIDADE*/
+
+.publicidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.publicidade h2{
+    align-self: flex-start;
+    margin: 0 0 40px 15px;
+    padding-left: 11px;
+    border-left: 2px solid #FE0078;
+}
+.quadrados-vazios{
+    width: 340px;
+    height: 240px;
+    background-color: #EEEEEE;
+    margin-bottom: 30px;
+    color: #545454;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* DENTRO DE PESQUISA - CATEGORIA*/
+
+.categoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.categoria h2{
+    align-self: flex-start;
+    margin: 0 0 40px 15px;
+    padding-left: 11px;
+    border-left: 2px solid #FE0078;
+}
+
+/* HOVER*/
+
+tr:hover{
+    color: #FE0078;
+    border-color: #FE0078;
+    cursor:pointer;
+}
+.button-continuar-lendo:hover{
+    background-color: #FE0078;
+    color: white;
+    cursor:pointer;
+}
+input:hover{
+    border: 1px solid #FE0078;
+    cursor: pointer;
+}
+

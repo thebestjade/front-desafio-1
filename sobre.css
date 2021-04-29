@@ -1,0 +1,23 @@
+.main-container{
+    grid-template-areas: 'artigo pesquisa'
+    'artigo pesquisa'
+    'mensagem pesquisa'
+    'mensagem .';
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 4fr 2fr 1fr 1fr;
+    gap: 50px;
+}
+.artigo{
+    grid-area: artigo;
+}
+.pesquisa{
+    grid-area: pesquisa;
+}
+.mensagem{
+    grid-area: mensagem;
+}
+.mensagem{
+    background-color: white;
+    box-shadow: 4px 4px 5px #aaaaaa;
+    border-radius: 5px;
+}

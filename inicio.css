@@ -1,0 +1,33 @@
+.main-container{
+    grid-template-areas: 'a1 pesquisa'
+    'a2 pesquisa'
+    'a3 .';
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 50px;
+}
+.a1{
+    grid-area: a1;
+}
+.pesquisa{
+    grid-area: pesquisa;
+}
+.a2{
+    grid-area: a2;
+}
+.a3{
+    grid-area: a3;
+}
+
+/* DENTRO DE ARTIGO*/
+
+.button-continuar-lendo{
+    align-self: flex-end;
+    margin: 0 24px 24px 0;
+    width: 154px;
+    height: 42px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid #FE0078;
+    color: rgba(84, 84, 84, 1);
+}
